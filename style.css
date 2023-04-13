@@ -1,0 +1,415 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Schibsted Grotesk', sans-serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.brand-title {
+    /* width: 50%; */
+    height: 4rem;
+    background-color: #000000;
+    opacity: .7;
+    font-size: 2rem;
+    /* color: #4fa4a2; */
+    color: #74e3de;
+    padding-top: 3.2rem;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 2rem;
+    font-family: 'Schibsted Grotesk', sans-serif; 
+}
+
+.brand-title span {
+    padding-left: 40px;
+    font-size: 1.2rem;
+}
+
+
+.first-image-text {
+    width: 20rem;
+    height: 20rem;
+    background-color: #000000;
+    padding: 2rem;
+    opacity: .6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+
+}
+
+.first-image-text h1 {
+    font-size: 3rem;
+    opacity: 1;
+}
+
+
+/* nav selectors */
+
+header {
+    width: 100%;
+    height: 3.5rem;
+    background-color: #2c2c2c;
+    position: fixed;
+    margin-bottom: 4rem;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    list-style: none;
+    color: #ffffff;
+}
+
+nav ul li {
+    padding-right: 12rem;
+}
+
+/* body selectors */
+
+.image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 58rem;
+}
+
+
+.first-image-container {
+    background-image: url('./images/kitchen1.jpg');
+    background-size: cover;
+    width: 83rem;
+    height: 55rem;
+}
+
+
+.main-text-container {
+    height: 12.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    width: 90%;
+    height: 10rem;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.main-text-p {
+    padding: 2rem;
+}
+
+.kitchen-images-container {
+    height: 28rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10.5rem;
+    flex-wrap: wrap;
+}
+
+.kitchen-img1 {
+    background-image: url('./images/kitchen2.jpg');
+    background-size: cover;
+    width: 28rem;
+    height: 28rem;
+}
+
+.kitchen-img2 {
+    background-image: url('./images/kitchen3.jpg');
+    background-size: cover;
+    width: 28rem;
+    height: 28rem;
+}
+
+.kitchen-img3 {
+    background-image: url('./images/kitchen4.jpg');
+    background-size: cover;
+    width: 28rem;
+    height: 28rem;
+}
+
+.steps-container {
+    height: 28rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .7rem;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.step {
+    width: 28rem;
+    height: 28rem;
+    background-color: #3b7a78;
+}
+
+.step h2 {
+    font-size: 3rem;
+    padding-left: 2rem;
+    padding-top: 3rem;
+}
+
+.step p {
+    padding: 5rem;
+}
+
+.simulator-description {
+    width: 70%;
+    font-size: 4rem;
+    padding-left: 5rem;
+    padding-bottom: 1.2rem;
+}
+
+.main-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.main-div-container {
+    display: flex;
+    justify-content: center;
+    height: 35rem;
+    background-color: #cfcfcf;
+    flex-wrap: wrap;
+    user-select: none;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+}
+
+.person-container img {
+    cursor: pointer;
+}
+
+.person-container img:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+
+.kitchen-element1 {
+    width: 140px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/1.1.png');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.kitchen-element2 {
+    width: 140px;
+    height: 500px;
+    background-color: #d3d3d3;
+    border: white solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.kitchen-element3 {
+    width: 140px;
+    height: 500px;
+    background-color: #9d9d9d;
+    border: white solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+.kitchen-element4 {
+    width: 140px;
+    height: 500px;
+    background-color: #6e6e6e;
+    border: white solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+.kitchen-element5 {
+    width: 140px;
+    height: 500px;
+    background-color: #444444;
+    border: white solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.kitchen-element1:hover {
+    opacity: 0.7; 
+    transition: 0.3s;
+}
+
+.kitchen-element2:hover {
+    opacity: 0.7; 
+    transition: 0.3s;
+}
+
+.kitchen-element3:hover {
+    opacity: 0.7; 
+    transition: 0.3s;
+}
+
+.kitchen-element4:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.kitchen-element5:hover {
+    opacity: 0.7; 
+    transition: 0.3s;
+}
+
+
+
+.buttons-ext-container {
+    background-color: #3b7a78;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-container button {
+    outline: none;
+    border: none;
+    padding: 0.3rem 5rem 0.3rem;
+    cursor: pointer;
+    background-color: #57aaa6;
+    color: #ffffff;
+    font-weight: 500;
+    height: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.buttons-container button:hover {
+    background-color: #33504e;
+    transition: 0.3s;
+  
+}
+
+.restart-container {
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+
+.restart-container button {
+    outline: none;
+    border: none;
+    padding: 0.3rem 5rem 0.3rem;
+    cursor: pointer;
+    background-color: #2d4f4e;
+    color: #ffffff;
+    font-weight: 500;
+    height: 50px;
+}
+
+.restart-container button:hover {
+    background-color: #74e3de;
+    transition: 0.3s;
+}
+
+.person-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    opacity: 0.75;
+}
+
+.price-container {
+    width: 100%;
+    background-color: #3b7a78;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1.6rem;
+}
+
+.price-display {
+    font-size: 3rem;
+}
+
+/* footer selectors */
+
+footer {
+    width: 100%;
+    height: 6rem;
+    background-color: #2b2b2b;
+    margin-top: 5rem;
+}
+
+@media only screen and (max-width: 1500px) {
+    .simulator-container {
+        display: none;
+    }
+}
+
+
+
+
+

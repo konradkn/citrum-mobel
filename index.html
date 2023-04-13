@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;1,200;1,400;1,600&family=Schibsted+Grotesk:ital,wght@0,400;0,700;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+  <title>Test</title>
+</head>
+
+<body>
+
+
+  <header>
+    <nav>
+      <div class="nav-container">
+        <ul>
+          <a href="">
+            <li>Sobre nosotros</li>
+          </a>
+          <a href="">
+            <li>Cocinas</li>
+          </a>
+          <a href="#simulador">
+            <li>Simulador</li>
+          </a>
+          <a href="">
+            <li>Contáctanos</li>
+          </a>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <div class="brand-title">
+      <h3>CITRUM MOBEL</h3><span>TECNOLOGÍA ALEMANA EN COCINAS</span>
+    </div>
+    <div class="image-container">
+
+      <div class="first-image-container">
+        <!-- <img src="./images/kitchen1.jpg" alt=""> -->
+        <div class="first-image-text">
+          <h1>La mejor experiencia para tu familia</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-text-container">
+      <div class="text-container">
+        <p class="main-text-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum atque, deleniti cum ipsa
+          illum iste tempora ea dicta, praesentium quia harum, aliquam quibusdam. Vero error enim magnam laboriosam
+          temporibus beatae.</p>
+      </div>
+    </div>
+
+
+    <div class="kitchen-images-container">
+      <div class="kitchen-img1"></div>
+      <div class="kitchen-img2"></div>
+      <div class="kitchen-img3"></div>
+    </div>
+
+    
+    <div class="simulator-description" id="simulador">
+      <h3>SIMULA TU COCINA MODULAR</h3>
+    </div>
+    <div class="steps-container">
+      <div class="step"><h2>Paso 1</h2><p>Elige el módulo que mejor se ajuste a tus necesidades, todos los modulos miden 60 cm de ancho. Si tienes alguna especificación que no encuentres ponte en contacto con nosotros y te haremos un proyecto a la medida.</p></div>
+      <div class="step"><h2>Paso 2</h2><p>Define un orden en el que te gustaría el acomodo de la cocina, puedes agregar cada módulo con los botones de opción y eliminar el objeto que quieras haciendo click sobre él.</p></div>
+      <div class="step"><h2>Paso 3</h2><p>Toma una captura de pantalla y envianos tu proyecto, enseguida nos pondremos en contacto contigo para poder darte la mejor atención y servicio para que disfrutes tu nueva cocina.</p></div>
+    </div>
+
+    <div class="simulator-container">
+      <div class="main-div-container">
+
+        
+        <div class="main-div" id="main-div">
+
+          <div class="person-container">
+            <img src="./images/person2.png" alt="" height="420px">
+          </div>
+        </div>
+        <div class="price-container">
+          <h3>El total de tu cocina es: $<span id="price-display">0</span></h3>
+        </div>
+      </div>
+
+      <div class="buttons-ext-container">
+        <div class="buttons-container">
+          <div id="kitchen-buttons" class="kitchen-buttons">
+            <button id="button1">Option1</button>
+            <button id="button2">Option2</button>
+            <button id="button3">Option3</button>
+            <button id="button4">Option4</button>
+            <button id="button5">Option5</button>
+          </div>
+          <div class="restart-container">
+            <div id="restart-div">
+              <button id="restart-button">Reiniciar</button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+  </main>
+  <footer>
+
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
