@@ -1,0 +1,3 @@
+# General Description
+
+This is a project made for a kitchen design company named 'Citrum Mobel'. One of the main goals is to create a modern website that allows interaction in an entertaining way. That's why the project has a simulator to create small modular kitchens and give potential clients a general idea of the distribution and price of a new kitchen, this is done by creating a small interface where users can choose from different options, each containing a different type of kitchen module with a pre-established price.
