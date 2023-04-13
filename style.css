@@ -222,6 +222,7 @@ nav ul li {
 
 .person-container img {
     cursor: pointer;
+    margin-top: 80px;
 }
 
 .person-container img:hover {
@@ -314,6 +315,24 @@ nav ul li {
 .kitchen-element5:hover {
     opacity: 0.7; 
     transition: 0.3s;
+}
+
+.erase-notification {
+    width: 57px;
+    height: 47px;
+    padding-top: 9px;
+    background-color: #ff3333;
+    color: #ffffff;
+    /* border-radius: 50%; */
+    text-align: center;
+    margin-left: 30px;
+    font-size: 0.5rem;
+    font-weight: bold;
+}
+
+.fa-trash {
+    font-size: 1.2rem;
+    padding-bottom: 0.2rem;
 }
 
 

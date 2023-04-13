@@ -15,11 +15,6 @@ const changeColor2 = document.querySelector('#change-button2')
 
 //price selector 
 const priceDisplay = document.getElementById('price-display')
-let priceItem1 = 2500
-let priceItem2 = 3000
-let priceItem3 = 4000
-let priceItem4 = 2000
-let priceItem5 = 4000
 
 let priceTags = [2500, 3000, 4000, 2000, 4000]
 
@@ -67,10 +62,9 @@ const add = (e) => {
 
   const element = document.getElementById("main-div");
 
-
   if (element.closest("#main-div").querySelectorAll("div").length >= 7) {
     buttons.hidden = true;
-  }
+  } 
 
   showPrice()
 
@@ -85,7 +79,7 @@ const restart = () => {
 
 //event listeners /////////////////////////////////////////////////////////////////////////////////////////////
 
-document.addEventListener("click", function (e) {
+document.addEventListener("click", (e) => {
   const target = e.target.closest("#main-div");
 
   console.log(e.target.classList);
@@ -113,6 +107,19 @@ document.addEventListener("click", function (e) {
 
   showPrice()
 });
+
+
+document.addEventListener("mouseover", (e) => {
+  let eraseNote = document.getElementById('erase-notification')
+  const target = e.target.closest("#main-div");
+
+  if(target) {
+    eraseNote.style.display = 'block'
+  } else {
+    eraseNote.style.display = 'none'
+  }
+
+})
 
 
 
