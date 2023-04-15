@@ -293,32 +293,42 @@ nav ul li {
 }
 
 .kitchen-element1:hover {
-    opacity: 0.7; 
+    opacity: 0.5; 
     transition: 0.3s;
+    background-image: none;
+    background-color: #fb4646;
 }
 
 .kitchen-element2:hover {
-    opacity: 0.7; 
+    opacity: 0.5; 
     transition: 0.3s;
+    background-image: none;
+    background-color: #fb4646;
 }
 
 .kitchen-element3:hover {
-    opacity: 0.7; 
+    opacity: 0.5; 
     transition: 0.3s;
+    background-image: none;
+    background-color: #fb4646;
 }
 
 .kitchen-element4:hover {
-    opacity: 0.7;
+    opacity: 0.5; 
     transition: 0.3s;
+    background-image: none;
+    background-color: #fb4646;
 }
 
 .kitchen-element5:hover {
-    opacity: 0.7; 
+    opacity: 0.5; 
     transition: 0.3s;
+    background-image: none;
+    background-color: #fb4646;
 }
 
 .erase-notification {
-    width: 57px;
+    width: 100px;
     height: 47px;
     padding-top: 9px;
     background-color: #ff3333;
@@ -328,6 +338,8 @@ nav ul li {
     margin-left: 30px;
     font-size: 0.5rem;
     font-weight: bold;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .fa-trash {

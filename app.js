@@ -27,6 +27,11 @@ const showPrice = (e) => {
     priceDisplay.textContent = counter
 }
 
+let simulatorPriceMessage = document.getElementById('kitchen-cost')
+simulatorPriceMessage.style.display = 'none'
+let simulatorInitialMessage = document.getElementById('kitchen-initial-message')
+simulatorInitialMessage.style.display = 'block'
+
 const add = (e) => {
   const kitchenElement = document.createElement("div");
 
@@ -65,6 +70,12 @@ const add = (e) => {
   if (element.closest("#main-div").querySelectorAll("div").length >= 7) {
     buttons.hidden = true;
   } 
+
+
+  if(element.closest('#main-div').querySelectorAll('div').length > 1) {
+    simulatorPriceMessage.style.display = 'block'
+    simulatorInitialMessage.style.display = 'none'
+  }
 
   showPrice()
 
