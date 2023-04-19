@@ -16,7 +16,7 @@ const changeColor2 = document.querySelector('#change-button2')
 //price selector 
 const priceDisplay = document.getElementById('price-display')
 
-let priceTags = [2500, 3000, 4000, 2000, 4000]
+let priceTags = [4500, 4250, 5000, 4800, 8000]
 
 
 

@@ -213,11 +213,16 @@ nav ul li {
     display: flex;
     justify-content: center;
     height: 35rem;
-    background-color: #cfcfcf;
+    /* background-color: #cfcfcf; */
+    background-color: #f1f1f1;
     flex-wrap: wrap;
     user-select: none;
     margin-left: 4.5rem;
     margin-right: 4.5rem;
+}
+
+.person-scale {
+    opacity: 0.8;
 }
 
 .person-container img {
@@ -232,21 +237,22 @@ nav ul li {
 
 
 .kitchen-element1 {
-    width: 140px;
+    width: 147px;
     height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('./images/1.1.png');
+    background-image: url('./images/1.png');
     background-size: cover;
     cursor: pointer;
 }
 
 .kitchen-element2 {
-    width: 140px;
+    width: 147px;
     height: 500px;
-    background-color: #d3d3d3;
-    border: white solid 2px;
+    /* background-color: #d3d3d3; */
+    background-image: url('./images/2.png');
+    /* border: white solid 2px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -255,10 +261,11 @@ nav ul li {
 }
 
 .kitchen-element3 {
-    width: 140px;
+    width: 147px;
     height: 500px;
-    background-color: #9d9d9d;
-    border: white solid 2px;
+    /* background-color: #9d9d9d; */
+    background-image: url('./images/3.png');
+    /* border: white solid 2px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -268,10 +275,11 @@ nav ul li {
 
 
 .kitchen-element4 {
-    width: 140px;
+    width: 147px;
     height: 500px;
-    background-color: #6e6e6e;
-    border: white solid 2px;
+    /* background-color: #6e6e6e; */
+    background-image: url('./images/4.png');
+    /* border: white solid 2px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -281,10 +289,11 @@ nav ul li {
 
 
 .kitchen-element5 {
-    width: 140px;
+    width: 281px;
     height: 500px;
-    background-color: #444444;
-    border: white solid 2px;
+    /* background-color: #444444; */
+    background-image: url('./images/5.png');
+    /* border: white solid 2px; */
     display: flex;
     justify-content: center;
     align-items: center;
